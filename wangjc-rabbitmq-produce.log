@@ -1,0 +1,26 @@
+2020-07-27 10:10:18.962  INFO 14016 --- [restartedMain] c.w.r.WangjcRabbitmqProduceApplication   : Starting WangjcRabbitmqProduceApplication on DESKTOP-EC8V9S7 with PID 14016 (D:\WorkSpace\idea_blog_project\wangjc-rabbitmq\wangjc-rabbitmq-produce\target\classes started by asds0 in D:\WorkSpace\idea_blog_project\wangjc-rabbitmq)
+2020-07-27 10:10:18.963 DEBUG 14016 --- [restartedMain] c.w.r.WangjcRabbitmqProduceApplication   : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2020-07-27 10:10:18.969  INFO 14016 --- [restartedMain] c.w.r.WangjcRabbitmqProduceApplication   : No active profile set, falling back to default profiles: default
+2020-07-27 10:10:20.542  INFO 14016 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 71 (http)
+2020-07-27 10:10:20.565  INFO 14016 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-27 10:10:20.565  INFO 14016 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-07-27 10:10:20.670  INFO 14016 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-27 10:10:20.670  INFO 14016 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1653 ms
+2020-07-27 10:10:20.967  INFO 14016 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-27 10:10:21.123  WARN 14016 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-07-27 10:10:21.322  INFO 14016 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 71 (http) with context path ''
+2020-07-27 10:10:21.324  INFO 14016 --- [restartedMain] c.w.r.WangjcRabbitmqProduceApplication   : Started WangjcRabbitmqProduceApplication in 3.128 seconds (JVM running for 3.982)
+2020-07-27 10:44:27.683  INFO 14016 --- [Thread-11] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-27 10:44:47.532  INFO 14588 --- [restartedMain] c.w.r.WangjcRabbitmqProduceApplication   : Starting WangjcRabbitmqProduceApplication on DESKTOP-EC8V9S7 with PID 14588 (D:\WorkSpace\idea_blog_project\wangjc-rabbitmq\wangjc-rabbitmq-produce\target\classes started by asds0 in D:\WorkSpace\idea_blog_project\wangjc-rabbitmq)
+2020-07-27 10:44:47.533 DEBUG 14588 --- [restartedMain] c.w.r.WangjcRabbitmqProduceApplication   : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2020-07-27 10:44:47.534  INFO 14588 --- [restartedMain] c.w.r.WangjcRabbitmqProduceApplication   : No active profile set, falling back to default profiles: default
+2020-07-27 10:44:48.455  INFO 14588 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 71 (http)
+2020-07-27 10:44:48.472  INFO 14588 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-27 10:44:48.472  INFO 14588 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-07-27 10:44:48.550  INFO 14588 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-27 10:44:48.550  INFO 14588 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 983 ms
+2020-07-27 10:44:48.774  INFO 14588 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-27 10:44:48.910  INFO 14588 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-07-27 10:44:49.030  INFO 14588 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 71 (http) with context path ''
+2020-07-27 10:44:49.032  INFO 14588 --- [restartedMain] c.w.r.WangjcRabbitmqProduceApplication   : Started WangjcRabbitmqProduceApplication in 1.8 seconds (JVM running for 2.468)
+2020-07-27 10:59:22.638  INFO 14588 --- [Thread-12] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

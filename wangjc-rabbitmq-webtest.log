@@ -1,0 +1,134 @@
+2020-07-28 09:42:03.336  INFO 14168 --- [restartedMain] c.w.r.WangjcRabbitmqWebtestApplication   : Starting WangjcRabbitmqWebtestApplication on DESKTOP-EC8V9S7 with PID 14168 (D:\WorkSpace\idea_blog_project\wangjc-rabbitmq\wangjc-rabbitmq-webtest\target\classes started by asds0 in D:\WorkSpace\idea_blog_project\wangjc-rabbitmq)
+2020-07-28 09:42:03.349 DEBUG 14168 --- [restartedMain] c.w.r.WangjcRabbitmqWebtestApplication   : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2020-07-28 09:42:03.349  INFO 14168 --- [restartedMain] c.w.r.WangjcRabbitmqWebtestApplication   : No active profile set, falling back to default profiles: default
+2020-07-28 09:42:04.511  INFO 14168 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 70 (http)
+2020-07-28 09:42:04.527  INFO 14168 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-28 09:42:04.527  INFO 14168 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-07-28 09:42:04.597  INFO 14168 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-28 09:42:04.597  INFO 14168 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1215 ms
+2020-07-28 09:42:04.964  INFO 14168 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-28 09:42:05.164  WARN 14168 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-07-28 09:42:05.247  INFO 14168 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 70 (http) with context path ''
+2020-07-28 09:42:05.250  INFO 14168 --- [restartedMain] c.w.r.WangjcRabbitmqWebtestApplication   : Started WangjcRabbitmqWebtestApplication in 2.205 seconds (JVM running for 3.024)
+2020-07-28 09:42:10.053  INFO 14168 --- [http-nio-70-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-28 09:42:10.053  INFO 14168 --- [http-nio-70-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-28 09:42:10.060  INFO 14168 --- [http-nio-70-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-07-28 09:42:10.135  INFO 14168 --- [http-nio-70-exec-2] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [127.0.0.1:5672]
+2020-07-28 09:42:10.160  INFO 14168 --- [http-nio-70-exec-2] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#6e2540be:0/SimpleConnection@2c810b10 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 53705]
+2020-07-28 09:42:10.194  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : MsgSendConfirmCallBack[消息发送交换机成功]，回调id[951f5b11-fbda-4d75-8599-47ec7ef001ea]
+2020-07-28 09:42:10.196  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : 消息发送成功
+2020-07-28 09:42:15.066  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : MsgSendConfirmCallBack[消息发送交换机成功]，回调id[cb1b52e9-74ae-40c1-a50b-4bbd1e79d2db]
+2020-07-28 09:42:15.066  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : 消息发送成功
+2020-07-28 09:42:17.106  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : MsgSendConfirmCallBack[消息发送交换机成功]，回调id[b3d355a9-dcd6-4479-8a15-8e2aa85bedc9]
+2020-07-28 09:42:17.106  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : 消息发送成功
+2020-07-28 09:42:19.312  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : MsgSendConfirmCallBack[消息发送交换机成功]，回调id[fdf5c3a5-ae5f-4010-a3f7-51222a1ad285]
+2020-07-28 09:42:19.312  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : 消息发送成功
+2020-07-28 09:42:21.466  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : MsgSendConfirmCallBack[消息发送交换机成功]，回调id[77e9f035-b088-4ddb-ab21-9fdddff9e05c]
+2020-07-28 09:42:21.466  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : 消息发送成功
+2020-07-28 09:42:22.369  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : MsgSendConfirmCallBack[消息发送交换机成功]，回调id[8eeb4c83-a4df-44ec-8a21-5c167ddeaca6]
+2020-07-28 09:42:22.369  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : 消息发送成功
+2020-07-28 09:42:22.875  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : MsgSendConfirmCallBack[消息发送交换机成功]，回调id[873955ba-7310-45ed-9eca-4ea2e41b150c]
+2020-07-28 09:42:22.876  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : 消息发送成功
+2020-07-28 09:42:23.243  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : MsgSendConfirmCallBack[消息发送交换机成功]，回调id[4cbfabb0-19dc-4ec1-943e-63012ce5a866]
+2020-07-28 09:42:23.244  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : 消息发送成功
+2020-07-28 09:42:23.498  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : MsgSendConfirmCallBack[消息发送交换机成功]，回调id[e0538f73-0bb3-4c41-a772-60306841a941]
+2020-07-28 09:42:23.499  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : 消息发送成功
+2020-07-28 09:42:23.719  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : MsgSendConfirmCallBack[消息发送交换机成功]，回调id[dcdff42a-d359-4465-bc21-b6b79024ea3b]
+2020-07-28 09:42:23.720  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : 消息发送成功
+2020-07-28 09:42:23.930  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : MsgSendConfirmCallBack[消息发送交换机成功]，回调id[20a3cbef-4ffa-4bb8-b16a-de67892a0329]
+2020-07-28 09:42:23.931  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : 消息发送成功
+2020-07-28 09:42:24.084  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : MsgSendConfirmCallBack[消息发送交换机成功]，回调id[c2d6e732-11b6-47e6-8ade-af73a5c72a50]
+2020-07-28 09:42:24.084  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : 消息发送成功
+2020-07-28 09:42:24.264  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : MsgSendConfirmCallBack[消息发送交换机成功]，回调id[6051c3a8-66e8-478c-a212-892d3dff370e]
+2020-07-28 09:42:24.264  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : 消息发送成功
+2020-07-28 09:42:24.443  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : MsgSendConfirmCallBack[消息发送交换机成功]，回调id[4c9a097d-4ebb-4e9f-90ef-8bc82a01430c]
+2020-07-28 09:42:24.444  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : 消息发送成功
+2020-07-28 09:56:42.388  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : MsgSendConfirmCallBack[消息发送交换机成功]，回调id[a93832a1-49e8-4a23-a241-be6a3b9ad4a2]
+2020-07-28 09:56:42.388  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : 消息发送成功
+2020-07-28 09:56:44.801  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : MsgSendConfirmCallBack[消息发送交换机成功]，回调id[d7c7d3d0-983a-4e30-b1c4-8b799e792441]
+2020-07-28 09:56:44.801  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : 消息发送成功
+2020-07-28 09:56:46.954  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : MsgSendConfirmCallBack[消息发送交换机成功]，回调id[510abfc0-1972-48b6-bf37-1db7b91f2f7a]
+2020-07-28 09:56:46.954  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : 消息发送成功
+2020-07-28 09:56:47.353  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : MsgSendConfirmCallBack[消息发送交换机成功]，回调id[14a3689b-15de-4cdf-a3d9-cce6de25cbc5]
+2020-07-28 09:56:47.354  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : 消息发送成功
+2020-07-28 09:56:47.628  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : MsgSendConfirmCallBack[消息发送交换机成功]，回调id[2447f6da-7ebd-4cb5-9343-cd349c6a8002]
+2020-07-28 09:56:47.628  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : 消息发送成功
+2020-07-28 09:56:47.895  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : MsgSendConfirmCallBack[消息发送交换机成功]，回调id[128f6ee8-ac01-4278-a61c-2ba85505ce87]
+2020-07-28 09:56:47.896  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : 消息发送成功
+2020-07-28 09:56:48.112  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : MsgSendConfirmCallBack[消息发送交换机成功]，回调id[74a3d000-c09d-43df-b1b1-4397f44aa7df]
+2020-07-28 09:56:48.112  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : 消息发送成功
+2020-07-28 09:56:48.267  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : MsgSendConfirmCallBack[消息发送交换机成功]，回调id[4aac18ed-d600-4059-bc19-25db1caeea0f]
+2020-07-28 09:56:48.267  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : 消息发送成功
+2020-07-28 09:56:48.443  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : MsgSendConfirmCallBack[消息发送交换机成功]，回调id[56b26902-e6d4-4e38-b233-aadfe35c24ef]
+2020-07-28 09:56:48.444  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : 消息发送成功
+2020-07-28 09:56:48.618  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : MsgSendConfirmCallBack[消息发送交换机成功]，回调id[f3200043-e940-440a-94a7-13e332b25119]
+2020-07-28 09:56:48.618  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : 消息发送成功
+2020-07-28 09:56:48.816  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : MsgSendConfirmCallBack[消息发送交换机成功]，回调id[2c7509ce-15cc-47a1-9c3f-7e19e9747a45]
+2020-07-28 09:56:48.816  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : 消息发送成功
+2020-07-28 09:56:49.001  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : MsgSendConfirmCallBack[消息发送交换机成功]，回调id[5df86d07-be58-47de-b931-22d6c8f13d6f]
+2020-07-28 09:56:49.001  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : 消息发送成功
+2020-07-28 09:56:49.186  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : MsgSendConfirmCallBack[消息发送交换机成功]，回调id[48437872-d233-4a30-8161-f5bb864e6105]
+2020-07-28 09:56:49.187  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : 消息发送成功
+2020-07-28 09:56:49.345  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : MsgSendConfirmCallBack[消息发送交换机成功]，回调id[e7b029a8-fd04-4d9c-8254-d5a0f3f5c25c]
+2020-07-28 09:56:49.346  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : 消息发送成功
+2020-07-28 09:56:49.535  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : MsgSendConfirmCallBack[消息发送交换机成功]，回调id[6a364b95-eab2-4a85-9323-8de92e1562ce]
+2020-07-28 09:56:49.535  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : 消息发送成功
+2020-07-28 09:56:49.739  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : MsgSendConfirmCallBack[消息发送交换机成功]，回调id[1b6fc738-7e84-40ab-8b93-a3decec8d4be]
+2020-07-28 09:56:49.739  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : 消息发送成功
+2020-07-28 09:56:49.915  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : MsgSendConfirmCallBack[消息发送交换机成功]，回调id[556c8296-598c-4d8f-a88b-c6b313e08e71]
+2020-07-28 09:56:49.916  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : 消息发送成功
+2020-07-28 09:56:50.099  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : MsgSendConfirmCallBack[消息发送交换机成功]，回调id[9823ded8-52d5-46d6-8946-f389b324bbd4]
+2020-07-28 09:56:50.099  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : 消息发送成功
+2020-07-28 09:56:50.287  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : MsgSendConfirmCallBack[消息发送交换机成功]，回调id[333caecc-9411-43df-822f-b0cb383aed4f]
+2020-07-28 09:56:50.288  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : 消息发送成功
+2020-07-28 09:56:50.507  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : MsgSendConfirmCallBack[消息发送交换机成功]，回调id[982ccac9-78e2-4d15-b8f4-b28dffc5d795]
+2020-07-28 09:56:50.508  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : 消息发送成功
+2020-07-28 09:56:50.697  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : MsgSendConfirmCallBack[消息发送交换机成功]，回调id[6d8f73bc-e00c-4b82-aa73-44b4d633453b]
+2020-07-28 09:56:50.697  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : 消息发送成功
+2020-07-28 09:56:50.904  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : MsgSendConfirmCallBack[消息发送交换机成功]，回调id[66f2cf04-b4f7-4d87-a098-549c5778a955]
+2020-07-28 09:56:50.904  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : 消息发送成功
+2020-07-28 09:56:51.104  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : MsgSendConfirmCallBack[消息发送交换机成功]，回调id[f4942e0f-c621-4f06-a292-f05145280303]
+2020-07-28 09:56:51.104  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : 消息发送成功
+2020-07-28 09:56:51.312  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : MsgSendConfirmCallBack[消息发送交换机成功]，回调id[5b91070c-11c4-402f-a1c0-bd5b266b45fc]
+2020-07-28 09:56:51.312  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : 消息发送成功
+2020-07-28 09:56:51.465  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : MsgSendConfirmCallBack[消息发送交换机成功]，回调id[5161c737-f396-49a4-a283-bc435f4398f1]
+2020-07-28 09:56:51.465  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : 消息发送成功
+2020-07-28 09:56:51.654  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : MsgSendConfirmCallBack[消息发送交换机成功]，回调id[b36aaadd-75bc-40fb-817f-2ffd04861f0c]
+2020-07-28 09:56:51.655  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : 消息发送成功
+2020-07-28 09:56:51.837  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : MsgSendConfirmCallBack[消息发送交换机成功]，回调id[4a496316-c136-4224-b090-9c67af8172f6]
+2020-07-28 09:56:51.838  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : 消息发送成功
+2020-07-28 09:56:51.990  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : MsgSendConfirmCallBack[消息发送交换机成功]，回调id[ed0fd31a-f2e6-4ac4-a723-856da41ec053]
+2020-07-28 09:56:51.991  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : 消息发送成功
+2020-07-28 11:21:34.691  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : MsgSendConfirmCallBack[消息发送交换机成功]，回调id[bf299142-8064-4dae-8189-4c5baf61c8d3]
+2020-07-28 11:21:34.692  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : 消息发送成功
+2020-07-28 11:21:36.995  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : MsgSendConfirmCallBack[消息发送交换机成功]，回调id[20d22c46-db11-4509-9a90-60362f78dea2]
+2020-07-28 11:21:36.995  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : 消息发送成功
+2020-07-28 11:22:25.972  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : MsgSendConfirmCallBack[消息发送交换机成功]，回调id[a834f0ca-a9a5-49cd-b827-2bd3c5b22e08]
+2020-07-28 11:22:25.972  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : 消息发送成功
+2020-07-28 11:22:26.434  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : MsgSendConfirmCallBack[消息发送交换机成功]，回调id[d242ead1-1eaf-4954-beac-0503ac43acd8]
+2020-07-28 11:22:26.434  INFO 14168 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : 消息发送成功
+2020-07-28 14:52:56.478  INFO 14168 --- [Thread-11] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-28 14:53:06.056  INFO 13744 --- [restartedMain] c.w.r.WangjcRabbitmqWebtestApplication   : Starting WangjcRabbitmqWebtestApplication on DESKTOP-EC8V9S7 with PID 13744 (D:\WorkSpace\idea_blog_project\wangjc-rabbitmq\wangjc-rabbitmq-webtest\target\classes started by asds0 in D:\WorkSpace\idea_blog_project\wangjc-rabbitmq)
+2020-07-28 14:53:06.057 DEBUG 13744 --- [restartedMain] c.w.r.WangjcRabbitmqWebtestApplication   : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2020-07-28 14:53:06.057  INFO 13744 --- [restartedMain] c.w.r.WangjcRabbitmqWebtestApplication   : No active profile set, falling back to default profiles: default
+2020-07-28 14:53:07.112  INFO 13744 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 70 (http)
+2020-07-28 14:53:07.137  INFO 13744 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-28 14:53:07.137  INFO 13744 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-07-28 14:53:07.205  INFO 13744 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-28 14:53:07.206  INFO 13744 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1110 ms
+2020-07-28 14:53:07.537  INFO 13744 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-28 14:53:07.718  WARN 13744 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-07-28 14:53:07.796  INFO 13744 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 70 (http) with context path ''
+2020-07-28 14:53:07.798  INFO 13744 --- [restartedMain] c.w.r.WangjcRabbitmqWebtestApplication   : Started WangjcRabbitmqWebtestApplication in 2.052 seconds (JVM running for 2.729)
+2020-07-28 14:53:28.854  INFO 13744 --- [http-nio-70-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-28 14:53:28.854  INFO 13744 --- [http-nio-70-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-28 14:53:28.862  INFO 13744 --- [http-nio-70-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2020-07-28 14:53:28.936  INFO 13744 --- [http-nio-70-exec-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [127.0.0.1:5672]
+2020-07-28 14:53:28.964  INFO 13744 --- [http-nio-70-exec-1] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#1d6fda93:0/SimpleConnection@3bd0297b [delegate=amqp://guest@127.0.0.1:5672/, localPort= 61349]
+2020-07-28 14:53:29.006  INFO 13744 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : MsgSendConfirmCallBack[消息发送交换机成功]，回调id[c822e4d7-e2fd-4b6e-b240-c3e8d96558b2]
+2020-07-28 14:53:29.007  INFO 13744 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : 消息发送成功
+2020-07-28 14:53:36.029  INFO 13744 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : MsgSendConfirmCallBack[消息发送交换机成功]，回调id[403689de-1906-406d-9957-fcc2c9c0920c]
+2020-07-28 14:53:36.030  INFO 13744 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : 消息发送成功
+2020-07-28 14:53:41.058  INFO 13744 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : MsgSendConfirmCallBack[消息发送交换机成功]，回调id[cc6182c3-5622-4ec7-ae54-cb90b79342b2]
+2020-07-28 14:53:41.058  INFO 13744 --- [AMQP Connection 127.0.0.1:5672] c.w.r.callback.MsgSendConfirmCallBack    : 消息发送成功
+2020-07-28 19:13:02.996  INFO 13744 --- [Thread-10] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
