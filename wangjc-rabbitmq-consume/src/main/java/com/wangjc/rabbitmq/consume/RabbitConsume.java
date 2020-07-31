@@ -78,6 +78,7 @@ public class RabbitConsume {
         } catch (IOException e) {
             logger.error("handleMessageSecond消息消费失败，消息体[{}]",new String(msg.getBody()));
             e.printStackTrace();
+
         }
     }
 
